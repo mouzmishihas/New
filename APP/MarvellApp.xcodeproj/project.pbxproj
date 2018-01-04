@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		FE3F036E1FFE060E009EAEB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3F036D1FFE060E009EAEB8 /* AppDelegate.swift */; };
-		FE3F03701FFE060E009EAEB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3F036F1FFE060E009EAEB8 /* ViewController.swift */; };
 		FE3F03731FFE060E009EAEB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3F03711FFE060E009EAEB8 /* Main.storyboard */; };
 		FE3F03751FFE060E009EAEB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE3F03741FFE060E009EAEB8 /* Assets.xcassets */; };
 		FE3F03781FFE060E009EAEB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3F03761FFE060E009EAEB8 /* LaunchScreen.storyboard */; };
 		FE3F03831FFE060E009EAEB8 /* MarvellAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3F03821FFE060E009EAEB8 /* MarvellAppTests.swift */; };
 		FE3F038E1FFE060E009EAEB8 /* MarvellAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3F038D1FFE060E009EAEB8 /* MarvellAppUITests.swift */; };
+		FE3F039C1FFE0BB5009EAEB8 /* Marvell_CharacterList_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3F039B1FFE0BB5009EAEB8 /* Marvell_CharacterList_ViewController.swift */; };
+		FE3F039E1FFE1513009EAEB8 /* Marvell_Character_Listing_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3F039D1FFE1513009EAEB8 /* Marvell_Character_Listing_Cell.swift */; };
+		FE3F03A01FFE1DF3009EAEB8 /* Marvell_API_Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3F039F1FFE1DF3009EAEB8 /* Marvell_API_Manager.swift */; };
+		FE3F03A21FFE37DA009EAEB8 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3F03A11FFE37DA009EAEB8 /* SearchTableViewCell.swift */; };
+		FE3F03A41FFE3D1E009EAEB8 /* Marvell_SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3F03A31FFE3D1E009EAEB8 /* Marvell_SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		FE3F036A1FFE060E009EAEB8 /* MarvellApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvellApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE3F036D1FFE060E009EAEB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FE3F036F1FFE060E009EAEB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FE3F03721FFE060E009EAEB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE3F03741FFE060E009EAEB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE3F03771FFE060E009EAEB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,11 @@
 		FE3F03891FFE060E009EAEB8 /* MarvellAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvellAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE3F038D1FFE060E009EAEB8 /* MarvellAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvellAppUITests.swift; sourceTree = "<group>"; };
 		FE3F038F1FFE060E009EAEB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE3F039B1FFE0BB5009EAEB8 /* Marvell_CharacterList_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marvell_CharacterList_ViewController.swift; sourceTree = "<group>"; };
+		FE3F039D1FFE1513009EAEB8 /* Marvell_Character_Listing_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marvell_Character_Listing_Cell.swift; sourceTree = "<group>"; };
+		FE3F039F1FFE1DF3009EAEB8 /* Marvell_API_Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marvell_API_Manager.swift; sourceTree = "<group>"; };
+		FE3F03A11FFE37DA009EAEB8 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		FE3F03A31FFE3D1E009EAEB8 /* Marvell_SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marvell_SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +105,11 @@
 		FE3F036C1FFE060E009EAEB8 /* MarvellApp */ = {
 			isa = PBXGroup;
 			children = (
+				FE3F03A61FFE4997009EAEB8 /* CustomCells */,
+				FE3F03A51FFE4981009EAEB8 /* ViewControllers */,
 				FE3F036D1FFE060E009EAEB8 /* AppDelegate.swift */,
-				FE3F036F1FFE060E009EAEB8 /* ViewController.swift */,
 				FE3F03711FFE060E009EAEB8 /* Main.storyboard */,
+				FE3F039F1FFE1DF3009EAEB8 /* Marvell_API_Manager.swift */,
 				FE3F03741FFE060E009EAEB8 /* Assets.xcassets */,
 				FE3F03761FFE060E009EAEB8 /* LaunchScreen.storyboard */,
 				FE3F03791FFE060E009EAEB8 /* Info.plist */,
@@ -123,6 +133,24 @@
 				FE3F038F1FFE060E009EAEB8 /* Info.plist */,
 			);
 			path = MarvellAppUITests;
+			sourceTree = "<group>";
+		};
+		FE3F03A51FFE4981009EAEB8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FE3F03A31FFE3D1E009EAEB8 /* Marvell_SearchViewController.swift */,
+				FE3F039B1FFE0BB5009EAEB8 /* Marvell_CharacterList_ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FE3F03A61FFE4997009EAEB8 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				FE3F03A11FFE37DA009EAEB8 /* SearchTableViewCell.swift */,
+				FE3F039D1FFE1513009EAEB8 /* Marvell_Character_Listing_Cell.swift */,
+			);
+			path = CustomCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +287,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE3F03701FFE060E009EAEB8 /* ViewController.swift in Sources */,
+				FE3F03A41FFE3D1E009EAEB8 /* Marvell_SearchViewController.swift in Sources */,
+				FE3F039C1FFE0BB5009EAEB8 /* Marvell_CharacterList_ViewController.swift in Sources */,
 				FE3F036E1FFE060E009EAEB8 /* AppDelegate.swift in Sources */,
+				FE3F03A01FFE1DF3009EAEB8 /* Marvell_API_Manager.swift in Sources */,
+				FE3F039E1FFE1513009EAEB8 /* Marvell_Character_Listing_Cell.swift in Sources */,
+				FE3F03A21FFE37DA009EAEB8 /* SearchTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
